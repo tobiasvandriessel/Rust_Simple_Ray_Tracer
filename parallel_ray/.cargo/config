@@ -1,0 +1,6 @@
+[build]
+#rustflags = ["-C", "target-cpu=native"]
+rustflags = ["-C", "no-vectorize-loops", "-C", "no-vectorize-slp"]
+
+#rustflags = ["-C", "target-feature=+sse,+sse2,+sse3,+avx"] #,+avx2"]
+#rustflags = ["-C", "opt-level=2"]

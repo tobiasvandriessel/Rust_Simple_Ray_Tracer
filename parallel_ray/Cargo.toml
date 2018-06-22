@@ -1,0 +1,11 @@
+[package]
+name = "parallel_ray"
+version = "0.1.0"
+authors = ["tobias"]
+
+[dependencies]
+sdl2 = "0.31.0"
+cgmath = "0.15.0"
+tobj = "0.1.6"
+time = "0.1.38"
+scoped-pool = "1.0.0"

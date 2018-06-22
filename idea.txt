@@ -1,0 +1,3 @@
+Rust: 
+	Message:	Call the threads and let them message the size of its rectangle and all the pixel values back;
+	State: 		Idk?
