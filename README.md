@@ -1,4 +1,4 @@
-### This repository is archived due to a security vulnerability in a dependency. To temporarily get around this, I will archive the repo.
+### WARNING: This repository is archived due to a security vulnerability in a dependency. To temporarily get around this, I will archive the repo.
 
 In this Rust version of my simple Ray Tracer, parallel\_ray, the project can be build and run with cargo run --release. Before this will succesfully run, Rust and sdl2 need to be installed on the system. Rust can be installed via official channels, in readme.txt you can read how to install sdl2 and one other step: On Windows, the stack size of the program exceeds the maximum size, therefore some additional steps are described in win\_assign\_bigger\_stack.txt to allow for this bigger stack. On Linux, this problem is not encountered.
 
