@@ -6,7 +6,10 @@
 ## Installation
 In this Rust version of my simple Ray Tracer, parallel\_ray, the project can be build and run with cargo run --release. Before this will succesfully run, Rust and sdl2 need to be installed on the system. Rust can be installed via official channels, below you can find how to install sdl2 and how to fix a known issue on Windows.
 
-## Installation
+### Nix 
+To take care of setting up Rust, Cargo, and SDL2, one can alternatively use the repo's Nix Flake to set these up automatically, either by entering a dev shell, or by using Nix-direnv to do so automatically.
+
+### SDL2
 Follow the steps on https://github.com/Rust-SDL2/rust-sdl2 to install SDL2 on your system, after this the used Rust wrapper library should be working and compilation should succeed.
 
 ### Error on Windows 
