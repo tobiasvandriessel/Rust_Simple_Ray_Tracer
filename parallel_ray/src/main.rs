@@ -39,7 +39,10 @@ const FRAMES_NR: u32 = 1024;
 
 
  
- pub fn main(width: u32, height: u32) {
+ pub fn main() {
+    let width = 800;
+    let height = 512;
+
     let sdl_context = sdl2::init().unwrap();
     let video_subsystem = sdl_context.video().unwrap();
 
@@ -60,7 +63,7 @@ const FRAMES_NR: u32 = 1024;
 
     let cube_translation = vec3(-4., -1., 1.);
 
-    let cube = tobj::load_obj(&Path::new("./assets/cube.obj"));
+    let cube = tobj::load_obj(&Path::new("./assets/cube.mtl"));
     assert!(cube.is_ok());
     let (models, _materials) = cube.unwrap();
 
