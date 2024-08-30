@@ -1,6 +1,0 @@
-{
-    "rust.workspace_mode": true,
-    "rust.unstable_features": true,
-    "rust-client.channel": "nightly-2017-12-01",
-    "git.ignoreLimitWarning": true
-}
