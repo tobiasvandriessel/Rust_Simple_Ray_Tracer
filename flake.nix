@@ -11,7 +11,8 @@
       in
       {
         devShell = with pkgs; mkShell {
-          buildInputs = [ SDL2 ];
+          buildInputs = [ cargo rustc rustfmt pre-commit rustPackages.clippy SDL2 ];
+          RUST_SRC_PATH = rustPlatform.rustLibSrc;
         };
       }
     );
